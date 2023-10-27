@@ -1,0 +1,73 @@
+.background-color{
+  background-color:whitesmoke;
+}
+.navbar-collapse
+{ font-family: 'Cantarell', sans-serif;
+  font-size: medium;
+  font-weight: 700;
+  
+}
+
+#intro{
+  font-family: serif;
+}
+
+.background{
+  background-image: url(./profilephoto.png);
+
+
+}
+
+.before{margin-left: 50px;}
+.before >p {
+  width: auto; margin-left: 10px; font-family: Arial, Helvetica, sans-serif;"
+}
+.h5{ 
+    font-family: serif;
+    font-weight: bold;
+  }
+  .about-me{
+    font-family: serif;
+    background-color: whitesmoke;
+  }
+.card-title{font-family: sans-serif;
+  font-weight: bold;}
+.card-text{font-family: Arial, Helvetica, sans-serif}
+#footer{background-image: url(./profilephoto.png); ;}
+#projects h2 {
+ font-size: 2rem ;
+  display: flex; 
+  align-items: center ; 
+  justify-content: center; 
+  font-weight: bolder; 
+  color: black ;" 
+
+
+}
+#projects p {max-width: 400px; text-align: start;}
+.about-project{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+#projects button{ 
+  background-color: #F6C6EA ; border: violet; color: white;
+}
+.project-img{
+  display: flex;
+  align-self: center;
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+  border: 10px solid #F6C6EA;
+  box-shadow: 10px 10px 10px 10px violet
+  ;
+}
+h3{ font-size:50px; font-family: sans-serif; color: black;}
+@media( max-width: 600px){
+  .project-img , .about-project{ display: inline-block; margin-top: 5px; margin-bottom: 50px;
+  margin-left: 30px;}
+  .before{margin-left: 20px;}
+
+}
